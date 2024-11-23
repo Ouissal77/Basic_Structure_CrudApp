@@ -1,6 +1,9 @@
 name: crudapp front ci cd
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
@@ -20,6 +23,6 @@ jobs:
       - name: install dependencies
         run: npm install
 
-      - name: uild the app
+      - name: build the app
         run: npm run build
   
