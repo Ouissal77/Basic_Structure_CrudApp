@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <div>
       hello home!!!
+      adding here to be different than main
     </div>
   )
 }
